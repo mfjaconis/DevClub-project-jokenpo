@@ -1,0 +1,70 @@
+body {
+        background-color: #0d4468;
+}
+
+header {
+    text-align: center;
+}
+
+img {
+    height: 200px;
+}
+
+.container {
+    border-radius: 20px;
+    max-width: 600px; 
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    background-color: #041e2e9d; 
+    padding: 20px;
+    color: aliceblue;
+}
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 30px;
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opactity 0.5s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.7;
+    transition: all;
+}
+
+#rock {
+    background-color: #a200ff ;
+}
+
+#paper {
+    background-color: #9ee01a;
+}
+
+#scissors {
+    background-color: #7dbeed;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.your-score span {
+    color: rgb(12, 135, 12);
+}
+
+.machine-score span {
+    color: rgb(158, 8, 8);
+}
