@@ -16,18 +16,25 @@
       <img src="./assets/img/img-jokenpo.png" alt="">
     </header>
     
-    <section class="container">
+    <main class="container">
         
-        <h1>Escolha sua opção e boa sorte!</h1>
+        <h2>Escolha sua opção e boa sorte!</h2>
 
-        <main class="buttons">
-            <button id="rock">&#128074</button>
-            <button id="paper">&#128400</button>
-            <button id="scissors"> &#9996</button>
-        </main>
+        <section class="buttons">
+            <button class="buttons-option" id="rock" onclick="playhuman('rock')">&#128074</button>
+            <button class="buttons-option" id="paper" onclick="playhuman('paper')">&#128400</button>
+            <button class="buttons-option" id="scissors" onclick="playhuman('scissors')"> &#9996</button>
+        </section>
+        
+        <h3 class="title-result">Resultado:</h3>
+        <p class="result"></p>
+        <section class="button-results">
 
-        <p class="your-score">Sua pontuação: <span>0</span></p>
-        <p class="machine-score">Pontuação computador: <span>0</span></p>
-    </section>
+        </section>
+        
+
+        <p class="your-score">Sua pontuação: <span class="human-score-number">0</span></p>
+        <p class="machine-score">Pontuação computador: <span class="machine-score-number">0</span></p>
+    </main>
 </body>
 </html>

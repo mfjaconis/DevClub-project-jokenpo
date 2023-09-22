@@ -4,10 +4,11 @@ body {
 
 header {
     text-align: center;
+    height: 170px;
 }
 
 img {
-    height: 200px;
+    height: 180px;
 }
 
 .container {
@@ -20,7 +21,7 @@ img {
     align-items: center; 
     justify-content: center;
     background-color: #041e2e9d; 
-    padding: 20px;
+    padding: 10px;
     color: aliceblue;
 }
 
@@ -30,16 +31,16 @@ img {
     gap: 30px;
 }
 
-button {
+.buttons-option {
     padding: 10px;
-    font-size: 50px;
+    font-size: 40px;
     cursor: pointer;
     border: none;
     border-radius: 10px;
     transition: opactity 0.5s ease-in-out;
 }
 
-button:hover{
+.buttons-option:hover{
     opacity: 0.7;
     transition: all;
 }
@@ -58,6 +59,10 @@ button:hover{
 
 p {
     font-weight: bold;
+    margin: 10px;
+}
+
+.title-result {
     margin-bottom: 10px;
 }
 
@@ -67,4 +72,12 @@ p {
 
 .machine-score span {
     color: rgb(158, 8, 8);
+}
+
+.button-results {
+    margin: 30px;
+}
+
+.result-paragraph {
+    color: #0d4468;
 }
