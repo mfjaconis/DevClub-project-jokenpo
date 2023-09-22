@@ -19,21 +19,14 @@
   }
 }
 
-/* Estilos padrão para telas maiores */
-body {
-    
-}
-
 @media (max-height: 600px) {
-    body {
-        font-size: 14px;
-    }
-
+  body {
+    font-size: 14px;
+  }
 }
-
 
 @media (max-height: 400px) {
-    body {
-        font-size: 12px;
-    }
+  body {
+    font-size: 12px;
+  }
 }
